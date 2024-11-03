@@ -8,6 +8,23 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://my-portfolio-xi-beryl-71.vercel.app/"),
+  keywords: [
+    "Rajit",
+    "Rajit D",
+    "Rajit Dutta",
+    "Dutta",
+    "R Dutta",
+    "Rajit Dutta portfolio",
+    "Rajit Portfolio",
+    "Portfolio",
+    "Developer Portfolio",
+    "Rajit Dutta projects",
+    "Rajit Dutta website",
+    "Rajit Dutta developer",
+    "Rajit Dutta contact information",
+    "Hire Rajit Dutta",
+  ],
   title: {
     default: "Rajit Dutta",
     template: "%s | My portfolio",
