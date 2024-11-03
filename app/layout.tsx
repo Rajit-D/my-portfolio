@@ -40,6 +40,10 @@ export default function RootLayout({
           href="/apple-touch-icon.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+        <meta
+          name="google-site-verification"
+          content="RNTsYwOBbb7ckRqHMxXP5YA7eOPobi-fxGUFdnm4igk"
+        />
       </head>
       <body className="font-spartan">
         <Suspense fallback={<Loading />}>
