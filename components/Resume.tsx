@@ -3,6 +3,11 @@ import { IoIosArrowDropdown } from "react-icons/io";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
 import Tags from "./Tags";
 import Project from "./Project";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Resume",
+};
 
 const Resume = () => {
   interface libraryType {
