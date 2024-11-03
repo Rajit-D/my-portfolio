@@ -15,7 +15,7 @@ const Project: React.FC<colType> = ({ col, wordLimit }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 640);
+      setIsMobile(window.innerWidth <= 780);
     };
     handleResize();
     window.addEventListener("resize", handleResize);
