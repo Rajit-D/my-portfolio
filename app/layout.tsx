@@ -3,9 +3,15 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { Suspense } from "react";
 import Loading from "./(home)/loading";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rajit Dutta",
+  title: {
+    default: "Rajit Dutta",
+    template: "%s | My portfolio",
+  },
   description: "My portfolio",
   twitter: {
     card: "summary_large_image",
